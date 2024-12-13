@@ -7,10 +7,16 @@ body{
     min-height: 100vh;
 }
 
-nav{
-    background-color:#FF8E00;
+.fixed-nav{
+position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Sørger for at navbaren vises øverst */
+  background-color:#FF8E00;
     box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
 }
+
+
 
 nav ul{
     width: 100%;
