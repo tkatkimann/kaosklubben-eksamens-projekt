@@ -191,6 +191,12 @@ footer{
     display: flex;
 }
 
+.social-links img{
+    margin-right: 20px;
+}
+
+
+
 
 
 .container h3{
