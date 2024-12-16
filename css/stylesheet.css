@@ -181,15 +181,21 @@ h1 {
 
     .dark {
         width: 100%;
-        text-align: left;
+        text-align: center;
         padding: 80px 20%;
         background-color: var(--primary-1-color);
+    
     }
     .dark p{
         color: var(--primary-text-color);;
     }
     .dark h2{
         color: var(--primary-text-color);;
+    }
+
+    .dark img{
+        width: 40%;
+        height: 40%;
     }
 
     .dark2 {
