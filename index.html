@@ -1,17 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da-DK" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forsiden</title>
+    <!-- globale metadata -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="sitemap" href="sitemap.xml" />
+
+    <!-- favicon -->    
     <link rel="icon" href="img/kaos-favicons/favicon.ico" type="image/x-icon">
+
+    <!-- primære meta tags -->
+    <title>KAOSklubben | Forsiden</title>
+    <meta name="title" content="KAOSklubben | Forsiden" />
+    <meta name="description" content="KAOSklubben Forsiden" />
+    <meta
+      name="copyright"
+      content="Copyright kaosklubben.dk Materialet må ikke gengives uden tilladelse."
+    />
+    <meta name="publisher" content="kaosklubben.dk" />
+    <meta name="keywords" content="grafisk design,visuel kommunikation,storytelling,iværksætter,startup,lille virksomhed,mindre virksomhed,små virksomheder,billig grafisk design,hjemmeside,logo,visitkort,branding,plakat,reklame,banner,produktvideo,reklamefilm,studerende,budget" />
+
+    <!-- FONTE INDSÆTTES HER-->
+
+
+
+
+
+
+
+    <!-- robots -->
+    <meta name="robots" content="follow, noarchive, nosnippet" />
+
+    <!-- stylesheet -->
     <link rel="stylesheet" href="css/stylesheet.css">
+
+    <!-- javascript -->
     <script src="js/sidebar.js" defer></script>
+    <script src="js/parralax.js" defer></script>
 
 </head>
 
-<!-------------NAVBAREN STARTER NEDENUNDER------------------->
 <body >
+
+    <!-------------NAVBAREN STARTER NEDENUNDER------------------->
    <header>
     <nav class="fixed-nav">
         <ul class="sidebar">
@@ -34,11 +65,32 @@
     </nav>
    </header>
 
-   <!-------------INDHOLDET STARTER NEDENUNDER------------------->
+    <!-------------INDHOLDET STARTER NEDENUNDER------------------->
 
-  <!----------------FOOTEREN STARTER NEDENUNDER--------------->
+    <section id="hero">
+        <video class="primary-video" autoplay loop muted>
+          <source src="videos/hero.mp4" type="video/mp4" />
+        </video>
+        <button class="btn">MØD OS</button>
+    </section>
 
-  <footer>
+     <!-- infosektion bygget op med H2 + tekst  -->
+    <section id="content" class="site-intro">
+        <h2>Velkommen til KAOSklubben</h2>
+        <p>
+            KAOSklubben er et kreativt fælleskab drevet af tre passionerede studerende indenfor grafisk design. <br><br>
+
+            Vi tilbyder flotte, funktionelle og budgetvenlige designløsninger til iværksættere og små virksomheder med store drømme.<br><br>
+            
+            Uanset om du mangler et logo, en plakat, en video eller en hel visuel identitet, er vi klar til at tage opgaven, hvor vi sørger for at formidle jeres budskab klart og tydeligt.          
+        </p>
+
+    </section>
+
+   
+    <!----------------FOOTEREN STARTER NEDENUNDER--------------->
+
+<footer>
     <section class="container">
         <div class="logo-footer">
             <img src="img/lille-logo-kaosklubben.svg">
@@ -62,6 +114,8 @@
     </section>
     <section class="copyright"> Copyright &copy; 2024  www.kaosklubben.dk</section>
 </footer>
-      
+
+
+
 </body>
 </html>
