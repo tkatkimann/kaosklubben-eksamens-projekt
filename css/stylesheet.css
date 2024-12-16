@@ -369,8 +369,6 @@ footer{
 
 
 
-
-
 .container h3{
     margin-bottom: 20px;
     font-size: 20px;
@@ -389,8 +387,12 @@ footer{
    
 }
 
+
+
+/***STYLLING AF GALLERI NEDENUNDER ****/
+
        
-    /* =================================== ! responsive layout, så det tilpasser sig skærmstørrelse ! ======================================= */
+/* =================================== ! responsive layout, så det tilpasser sig skærmstørrelse ! ======================================= */
        
     @media screen and (max-width: 800px) {
         .col-3 {
