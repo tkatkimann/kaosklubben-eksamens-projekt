@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+
+/* ===================================! gennerelle styles ! ======================================= */
+
+:root {
+    --primary-1-color: #ff8e00;
+    --secondary-1-color: #34B5A9;
+    --accent-1-color: #F7647D;
+    --primary-text-color: #020202;
+    --secondary-text-color: #F8EEE1;
+   }
+   
+
 body{
     min-height: 100vh;
 }
@@ -137,46 +149,47 @@ h1 {
     padding: 0;
     background-color: #000000;
     height: 500px;
-   }
-   #hero video {
+}
+
+#hero video {
     width: 100%;
     object-fit: cover
-   }
+}
    
    /* vigtigt at knap placeres oven på videoen */
    
-   #hero button {
+#hero button {
     position: absolute;
     bottom: 10%;
     z-index: 1;
-   }
+}
    
    
    
-    #hero button {
+#hero button {
       padding: 8px 32px;
       font-size: 1.3rem;
       font-weight: 600;
-    }
+}
 
-    #content {
+#content {
         padding:100px 50px;
         text-align:left;
         width:80%;
         margin:0px auto;
-       }
+}
 
     .dark {
         width: 100%;
         text-align: left;
         padding: 80px 20%;
-        background-color: var(--secondary-1-color);
+        background-color: var(--primary-1-color);
     }
     .dark p{
-        color: var(--primary-1-color);;
+        color: var(--primary-text-color);;
     }
     .dark h2{
-        color: var(--primary-1-color);;
+        color: var(--primary-text-color);;
     }
 
     .row:after {
@@ -220,13 +233,6 @@ h1 {
         justify-content: space-between;
        }
        
-       
-       
-       .site-intro img {
-        height: 100px;
-        width: 100px;
-        float: right;
-       }
        
    
 
