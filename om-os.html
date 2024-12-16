@@ -7,7 +7,7 @@
     <link rel="icon" href="img/kaos-favicons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/stylesheet.css">
     <script src="js/sidebar.js" defer></script>
-    <script src="js/parralax.js" defer></script>
+    <script src="js/image-slider.js" defer></script>
 
 </head>
 
@@ -82,7 +82,35 @@
             </article
         </section>
 
+
+        <section class="slider">
+
+            
+            <section class="slides">
+                <video class="slide" src="img/portfolio/eud-video.mp4" alt="eud video #1">
+                <img class="slide" src="img/portfolio/motorcross.webp" alt="motorcross #2">
+                <img class="slide" src="img/portfolio/malergrej.webp" alt="malergrej #3">
+                <img class="slide" src="img/portfolio/very-peri-cat.webp" alt="kat #4">
+            </section>
+
+            <!--Venstre pil nedenunder ;-->
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+
+            <!--Venstre pil nedenunder ;-->
+            <button class="next" onclick="nextSlide()">&#10095</button> 
+
+
+            <article class="description">
+                <p id="titel"></p>
+                <p id="kort-b"></p>
+                <p id="år"></p>
+                <p id="lavet-med"></p>
+            </article>
+
+        </section>
+
     </main>
+
 
     
 
