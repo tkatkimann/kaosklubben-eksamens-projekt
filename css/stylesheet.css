@@ -263,7 +263,7 @@ h1 {
         font-size: 2rem;
         font-weight: 600;
         line-height: 160%;
-        padding-bottom: 60px;
+        padding-bottom: 20px;
     }
        
     h2 {
@@ -394,6 +394,137 @@ footer{
 
 
 
+
+/***STYLLING AF CASES NEDENUNDER ****/
+
+.cases{
+
+    max-width: 1100px; /* Maks bredde for indhold */
+    margin: 0 auto;    /* Centrerer indholdet */
+    box-sizing: border-box;
+    padding: 80px 30px;
+
+   
+}
+
+
+.look{
+    margin-bottom: 40px;
+}
+
+.next-container{
+    background-color: var(--secondary-1-color);
+    height: 300px;
+}
+
+.next-info{
+    max-width: 1100px; 
+    margin: 0 auto;   
+    box-sizing: border-box;
+    padding: 40px 30px;
+}
+
+.next-info a{
+    margin-top: 20px;
+    display: block; /* Dette gør linket til en blok, så det kan flyttes */
+    margin-left: auto; 
+    width: fit-content; /* Denne funtion sørger for, at knappen kun er så bred som dens indhold */
+}
+
+
+.video-section {
+    background-color:var(--primary-1-color);
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
+}
+
+.video-section video {
+    width: 600px; /* Sæt maksimal bredde */
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Let skygge */
+}
+
+
+
+.case-container {
+   
+    display: flex;
+    align-items: flex-start; 
+    gap: 20px; /* giver afstand mellem billedet og teksten */
+    margin-bottom: 30px;
+
+}
+
+.case-content {
+    
+    display: flex;
+    flex-direction: column; 
+    width: 600px;
+   
+    
+}
+
+.img-ikon {
+    margin-left: auto;
+}
+
+
+.img-ikon img {
+    height: 180px; 
+    
+}
+
+
+.feedback{
+    margin-top: 40px;
+    display:flex;
+    align-items: flex-end; /* Justerer elementerne til bunden */
+    gap: 30px;
+    justify-content: center;
+}
+
+.profil{
+    height:100px;
+}
+
+
+.text-bubble{
+    height: 200px;
+}
+
+
+
+/***************/
+
+
+.btn2-link {
+    margin-top: 0px;
+    background-color: var(--accent-1-color);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 40px;
+    border: 2px solid #C56666;
+    font-size: 14px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-decoration: none; 
+    display: inline-block; 
+  }
+  
+.btn2-link:hover {
+    background-color: #E75870; 
+  }
+  
+.btn2-link:active {
+    transform: scale(0.96);
+  }
+
+
+
+
+
 /***STYLLING AF KONTAKT NEDENUNDER ****/
 
 .kontakt-container{
@@ -496,6 +627,7 @@ footer{
                 flex-direction: column;
             }
         }
+        
         
 
 @media screen and (max-width: 800px) {
