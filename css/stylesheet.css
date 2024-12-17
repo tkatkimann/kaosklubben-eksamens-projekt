@@ -213,7 +213,8 @@ h1 {
         color: var(--primary-text-color);;
     }
     
-    
+
+
     .col-3 {
         float: left;
         width: 33.33%;
@@ -318,7 +319,33 @@ h1 {
 }
 
 
+.art-programs {
+ 
+    margin: 0; 
+    padding: 0; 
+    width: 100vw; 
+    height: 100vh; 
+    overflow: hidden; 
+}
 
+.art-programs img {
+    margin-top: 50px;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: block; 
+}
+
+
+
+.galleri{
+    background-color: palevioletred;
+    
+}
+
+.galleri img, video{
+    width: 200px;
+}
 
 
 .icon-row {
