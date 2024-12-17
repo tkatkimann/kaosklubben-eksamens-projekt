@@ -293,8 +293,8 @@ h1 {
 
 
 .om{
-    max-width: 1100px; /* Maks bredde for indhold */
-    margin: 0 auto;    /* Centrerer indholdet */
+    max-width: 1100px; 
+    margin: 0 auto;    
     box-sizing: border-box;
     padding: 80px 30px;
 }
@@ -316,6 +316,54 @@ h1 {
 .profil img{
     height: 200px;
 }
+
+
+
+
+
+.icon-row {
+    display: flex; /* Dette lgger alt i en vandret række */
+    justify-content: center; /* Detter centrerer ikonerne vandret på siden*/
+    align-items: center; 
+    gap: 70px; /* Afstand mellem hvert ikon */
+    margin-bottom: 20px; 
+  }
+  
+
+  .icon-container {
+    display: flex; 
+    flex-direction: column; /* Ikonen liger over dens tekst */
+    align-items: center; 
+    text-align: center; 
+    gap: 5px; /
+  }
+  
+  .icon {
+    width: 80px; 
+    height: auto; 
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .icon-container p {
+    margin: 0; 
+    font-size: 14px; 
+    color: #000000;
+    font-weight: bold; 
+  }
+  
+  .icon:hover {
+    transform: scale(1.1);
+  }
+
+  
+
+
+.long-arrow{
+    width:990px;
+   
+}
+
 
 
 
@@ -433,7 +481,7 @@ footer{
     margin-top: 20px;
     display: block; /* Dette gør linket til en blok, så det kan flyttes */
     margin-left: auto; 
-    width: fit-content; /* Denne funtion sørger for, at knappen kun er så bred som dens indhold */
+    width: fit-content; /* Denne funktion sørger for, at knappen kun er så bred som dens indhold */
 }
 
 
@@ -587,10 +635,10 @@ footer{
 
 
 .tuscher-container{
-    position: absolute;  /* gør at billedet sidder fast i sin position */
+    position: absolute;  /* Gør at billedet sidder fast i sin position */
     right: -125px;       /* Her flytter jeg billedet delvist ud af skærmen ''*/
-    bottom: 0;           /* Placeret  den i bunden */
-    z-index: 10;         /* Sørg for, at billedet er over andet indhold */
+    bottom: 0;           /* ? skriv her*/
+    z-index: 10;        
     overflow: hidden;    /* Dette skjuler den del af billedet, der stikker ud */
 }
 
