@@ -1,0 +1,35 @@
+{
+  "eud for alle": {
+      "titel": "EUD for alle",
+      "kort_beskrivelse": "Animationsvideo som en del af det regionale projekt; EUD for alle",
+      "årstal": "2022",
+      "lavet_med": "Karakteren er opbygget i Illustrator og herefter animeret i Character Animator",
+      "type": "video",
+      "file": "eud.mp4"
+  },
+  "motocross": {
+      "titel": "MotoCross",
+      "kort_beskrivelse": "Billedeserie tænkt til en reklamekampagne for motocross",
+      "årstal": "2023",
+      "lavet_med": "Photoshop",
+      "type": "image",
+      "file": "motocross.webp"
+  },
+  "malergrej": {
+      "titel": "Malergrej",
+      "kort_beskrivelse": "Illustration for hyggens skyld",
+      "årstal": "2022",
+      "lavet_med": "Illustrator",
+      "type": "image",
+      "file": "malergrej.webp"
+  },
+  "kat": {
+      "titel": "Very Peri Cat",
+      "kort_beskrivelse": "Kat på gul baggrund, og stregen er PANTONEs Very Peri - årets farve i 2022",
+      "årstal": "2022",
+      "lavet_med": "Illustrator",
+      "type": "image",
+      "file": "cat.webp"
+
+  }
+}

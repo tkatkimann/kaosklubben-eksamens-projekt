@@ -33,7 +33,7 @@
 
     <!-- javascript -->
     <script src="js/sidebar.js" defer></script>
-    <script src="js/image-slider.js" defer></script>
+    <script src="js/gallery.js" defer></script>
     <script src="js/infographic.js" defer></script>
 
 </head>
@@ -100,28 +100,15 @@
 
     <main class="om">
 
-        <section>
-            <h2>Galleri</h2>
-            <article>
-                Tag et kig på vores samling af egne designprojekter, som vi har skabt ud fra ren passion og kreativitet. Nogle af værkerne er ikke lavet for kunder, men som en del af vores fritidsinteresser, som vi er utroligt stolte af at præsentere.
-            
-            </article>
-        </section>
-
-        <section class="galleri">
-            <section class="slider">
-                 <video controls>
-                <source src="img/portfolio/eud-video.mp4" type="video/mp4"> 
-            </video>
-            <img src="img/portfolio/motorcross.webp">
-            <img src="img/portfolio/malergrej.webp">
-            <img src="img/portfolio/very-peri-cat.webp">
-            </section>
-            <button class="prev">&#10094</button>
-            <button class="next">&#10095</button>
-           
-        </section>
-          
+        <div id="gallery">
+            <div id="gallery-content">
+                <!-- Dynamisk indhold (billede/video) indsættes her via JavaScript -->
+            </div>
+            <p id="description">Beskrivelse vil blive vist her.</p>
+            <button id="prev">←</button>
+            <button id="next">→</button>  
+        </div>
+    
     
     </main>
 
