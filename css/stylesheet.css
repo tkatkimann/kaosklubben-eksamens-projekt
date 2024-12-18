@@ -19,7 +19,6 @@
 body{
     min-height: 100vh;
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
       
@@ -176,7 +175,7 @@ h1 {
     font-size: 1.3rem;
     font-weight: 600;
     cursor: pointer;
-    transform: transform 0.2 ease;
+    transition: transform 0.2s ease;
     text-decoration: none;
     display: inline-block;
 }
