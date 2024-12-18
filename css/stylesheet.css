@@ -604,18 +604,27 @@ footer{
 /***STYLLING AF CASES NEDENUNDER ****/
 
 .cases{
-
     max-width: 1100px; /* Maks bredde for indhold */
     margin: 0 auto;    /* Centrerer indholdet */
     box-sizing: border-box;
     padding: 80px 30px;
-
    
 }
 
 
 .look{
     margin-bottom: 40px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center; 
+    margin: 20px 0; 
+}
+
+.video-section video {
+    width: 600px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Let skygge */
 }
 
 .next-container{
@@ -638,23 +647,8 @@ footer{
 }
 
 
-.video-section {
-    background-color: white;
-    display: flex;
-    justify-content: center; 
-    margin: 20px 0; 
-}
-
-.video-section video {
-    width: 600px; /* Sæt maksimal bredde */
-
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Let skygge */
-}
-
-
 
 .case-container {
-   
     display: flex;
     align-items: flex-start; 
     gap: 20px; /* giver afstand mellem billedet og teksten */
@@ -663,7 +657,6 @@ footer{
 }
 
 .case-content {
-    
     display: flex;
     flex-direction: column; 
     width: 600px;
