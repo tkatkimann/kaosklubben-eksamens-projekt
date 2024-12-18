@@ -163,15 +163,27 @@ h1 {
     position: absolute;
     bottom: 10%;
     z-index: 1;
+    background-color: var(--accent-1-color);
+    color: var(--secondary-text-color);
+    border-radius: 5px;
+    padding: 10px 40px;
+    border: 2px solid #C56666;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    transform: transform 0.2 ease;
+    text-decoration: none;
+    display: inline-block;
 }
-   
-   
-   
-#hero button {
-      padding: 8px 32px;
-      font-size: 1.3rem;
-      font-weight: 600;
+
+#hero button:hover{
+    background-color: #E75870;
 }
+
+#hero button:active{
+    transform: scale(0.96);
+}
+
 
 #content {
         padding:100px 50px;
@@ -287,7 +299,29 @@ h1 {
        }
        
        
-   
+   .btn {
+    margin-top: 0px;
+    background-color: var(--accent-1-color);
+    color: var(--secondary-text-color);
+    border-radius: 5px;
+    padding: 10px 40px;
+    border: 2px solid #C56666;
+    font-size: 14px;
+    font-weight: 600;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    text-decoration: none; 
+    display: inline-block; 
+  }
+  
+.btn:hover {
+    background-color: #E75870; 
+  }
+  
+#btn:active {
+    transform: scale(0.96);
+  }
 
 /* STYLING AF OM OS SIDEN STARTER NEDENUNDER */
 
@@ -582,7 +616,7 @@ footer{
 
 
 .video-section {
-    background-color:var(--primary-1-color);
+    background-color: white;
     display: flex;
     justify-content: center; 
     margin: 20px 0; 
@@ -642,16 +676,15 @@ footer{
     height: 200px;
 }
 
-
-
 .btn2-link {
     margin-top: 0px;
     background-color: var(--accent-1-color);
-    color: white;
+    color: var(--secondary-text-color);
     border-radius: 5px;
     padding: 10px 40px;
     border: 2px solid #C56666;
     font-size: 14px;
+    font-weight: 600;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: transform 0.2s ease;
