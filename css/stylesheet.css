@@ -339,6 +339,14 @@ h1 {
     padding: 80px 30px;
 }
 
+.om-2{
+    max-width: 1100px; 
+    margin: 0 auto;    
+    box-sizing: border-box;
+    padding: 0px 30px ;
+    padding-bottom: 250px;
+}
+
 .profiler {
     display: flex;
     justify-content: center;
@@ -419,49 +427,78 @@ button:hover {
     color: #333;
 }
 
+
+/*Styling af ikonserien i inforgrafen starter nedenunder */
+
 .icon-row {
-    display: flex; /* Dette lgger alt i en vandret række */
-    justify-content: center; /* Detter centrerer ikonerne vandret på siden*/
-    align-items: center; 
-    gap: 70px; /* Afstand mellem hvert ikon */
-    margin-bottom: 20px; 
-  }
-  
-
-  .icon-container {
-    display: flex; 
-    flex-direction: column; /* Ikonen liger over dens tekst */
-    align-items: center; 
-    text-align: center; 
-    gap: 5px; /
-  }
-  
-  .icon {
-    width: 80px; 
-    height: auto; 
-    cursor: pointer;
-    transition: transform 0.3s;
-  }
-  
-  .icon-container p {
-    margin: 0; 
-    font-size: 14px; 
-    color: #000000;
-    font-weight: bold; 
-  }
-  
-  .icon:hover {
-    transform: scale(1.1);
-  }
-
-  
-
-
-.long-arrow{
-    width:990px;
-   
+    display: flex;
+    justify-content: center; /* Centrerer ikonerne vandret i midten af indholdet*/
+    align-items: center;
+    gap: 80px; /* Afstand mellem ikoner */
+    margin-bottom: 10px; 
 }
 
+
+.icon-container {
+    display: flex;
+    flex-direction: column; /* Ikonet ligger over teksten */
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    position: relative; /* Gør det muligt at positionere boblen i forhold til containeren */
+}
+
+.icon {
+    
+    width: 90px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+}
+
+.icon-container p {
+    margin: 0;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Styling af pilen */
+.arrow-container {
+    
+    display: flex;
+    justify-content: center; /* Centrerer pilen */
+}
+
+.long-arrow {
+    width: 90%; /* Pilen strækker sig under hele bredden */
+    max-width: 1000px;
+    height: auto;
+}
+
+
+.bubble {
+    display: none; /* Skjult som standard */
+    position: absolute;
+    z-index: 10;
+    top:120%;
+    left: 50%;  /* Centrer boblen horisontalt */
+    transform: translateX(-50%); /* Flyt boblen tilbage til midten */
+    width: 200%;  /* Øg bredden af boblen, så den kan være større end containeren */
+}
+
+.bubble.active {
+    display: block; /* Viser boblen, når den er aktiv */
+}
+
+.bubble img{
+    width: 100px;
+    height: auto;
+}
 
 
 
