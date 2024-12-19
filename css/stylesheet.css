@@ -21,8 +21,6 @@ body{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
-      
-    
 }
 
 
@@ -126,21 +124,22 @@ h1 {
     font-weight: 600;
     line-height: 160%;
     padding-bottom: 60px;
+    font-family: 'Righteous', sans-serif;
    }
    
    h2 {
     font-size: 1.5rem;
     font-weight: 700;
     line-height: 180%;
+    font-family: 'Righteous', sans-serif;
+
    }
    h3 {
     font-size: 1.2rem;
     font-weight: 600;
+    font-family: 'Righteous', sans-serif;
    }
 
-   h2 {
-    font-family: 'Righteous', sans-serif;
-}
 
 
 /* =================================== ! index.html med hero-sektion ! ======================================= */
